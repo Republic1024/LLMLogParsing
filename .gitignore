@@ -1,0 +1,37 @@
+# 忽略所有 zip 压缩包
+*.zip
+
+# 忽略文件夹中的所有内容
+2025_5_8_log_all/*
+
+# 但允许一个空的 .keep 文件
+!2025_5_8_log_all/.keep
+
+
+# 常见缓存 & 临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode/IDE 配置文件
+.vscode/
+.idea/
+
+# 虚拟环境
+env/
+venv/
+.venv/
+
+
+# 本地数据文件夹（根据你项目情况可修改）
+data/
+output/
+models/
